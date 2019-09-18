@@ -1,0 +1,144 @@
+@font-face {
+    src: url('./fonts/Caveat-Regular.ttf');
+    font-family: 'Caveat';
+}
+
+body {
+    overflow: hidden;
+}
+
+.img {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#dogs {
+    height: 380px;
+    position: absolute;
+    right: 150px;
+    top: 180px;
+}
+
+#parrots {
+    height: 100px;
+    position: absolute;
+    top: 91px;
+    right: 256px;
+}
+
+#cats {
+    height: 210px;
+    position: absolute;
+    top: 358px;
+    left: 200px;
+}
+
+img.transition-opacity-cats {
+    height: 120px;
+    position: absolute;
+    top: 260px;
+    left: 110px;
+    opacity: 0;
+}
+
+p.transition-opacity-cats {
+    font-family: 'Caveat';
+    font-size: 2.5em;
+    position: absolute;
+    top: 275px;
+    left: 160px;
+    opacity: 0;
+}
+
+p.transition-opacity-parrots {
+    display: block;
+    width: 130px;
+    height: 50px;
+    font-family: 'Caveat';
+    font-size: 1.3em;
+    position: absolute;
+    top: 33px;
+    right: 362px;
+    opacity: 0;
+}
+
+img.transition-opacity-parrots {
+    height: 110px;
+    width: 243px;
+    position: absolute;
+    top: 10px;
+    right: 300px;
+    opacity: 0;
+}
+
+p.transition-opacity-dogs {
+    display: block;
+    width: 130px;
+    height: 80px;
+    font-family: 'Caveat';
+    font-size: 2em;
+    position: absolute;
+    top: 295px;
+    right: 350px;
+    opacity: 0;
+}
+
+img.transition-opacity-dogs {
+    height: 110px;
+    width: 243px;
+    position: absolute;
+    top: 285px;
+    right: 310px;
+    opacity: 0;
+}
+
+#vote {
+    height: 50px;
+    position: absolute;
+    top: 95px;
+    left: 285px;
+    z-index: 2;
+}
+
+#vote:hover {
+    cursor: pointer;
+}
+
+#district {
+    width: 110px;
+    position: absolute;
+    top: 58px;
+    left: 250px;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+#arrow {
+    height: 90px;
+    position: absolute;
+    left: 230px;
+    top: 158px;
+}
+
+.text {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5em;
+    display: block;
+    position: absolute;
+    top: 215px;
+    left: 328px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+a.hidden {
+    text-align: center;
+}
